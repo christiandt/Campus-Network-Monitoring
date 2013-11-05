@@ -9,7 +9,9 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
+import java.util.TreeMap;
 import java.util.Map.Entry;
+import java.util.SortedMap;
 
 public class CapturedTxtReader implements Serializable {
 	
@@ -42,8 +44,8 @@ public class CapturedTxtReader implements Serializable {
 					ipEnd = line.indexOf(')');
 					os.getIpSet().add(line.substring(ipStart, ipEnd));
 					if (!macMap.containsKey(os.getMacAddress())){
-						System.out.println(macMap.size());
 						macMap.put(os.getMacAddress(), os);			//Storing the os in a map
+						System.out.println(macMap.size());
 					}
 					else if (!macMap.get(os.getMacAddress()).getIpSet().contains(os.getIpSet())){
 						macMap.get(os.getMacAddress()).getIpSet().addAll(os.getIpSet());
@@ -62,16 +64,34 @@ public class CapturedTxtReader implements Serializable {
 	public void checkForDuplicateIpAdresses(HashMap<String, OSInstance> macMap){
 		Iterator<Entry<String, OSInstance>> it = macMap.entrySet().iterator();
 		Map.Entry<String, OSInstance> entry;
+		TreeMap<Integer, Integer> cm = new TreeMap<>(); //cm = count map, map of how many devices has got how many ips
 		int counter = 0;
+		int size = 0;
+		int count = 0;
 		System.out.println("");
 		while(it.hasNext()){
 			entry = it.next();
-			if(entry.getValue().getIpSet().size()>1){
-				System.out.println("counter = "+counter);
+			size = entry.getValue().getIpSet().size();
+			if(size>1){
+				if(cm.containsKey(size)) {
+					count = cm.get(size);
+					cm.remove(size);
+					cm.put(size, count+1);
+				}
+				else {
+					cm.put(size, 1);
+				}
 				counter++;
-				System.out.println("ipSet size = "+entry.getValue().getIpSet().size());
 			}
 		}
+		Iterator<Entry<Integer, Integer>> ipIt = cm.entrySet().iterator();
+		Map.Entry<Integer, Integer> ipEntry;
+		while(ipIt.hasNext()){
+			ipEntry = ipIt.next();
+			System.out.println(ipEntry.getValue()+" devices has got "+ipEntry.getKey()+" number of ip adresses");
+		}
+		
+		System.out.println(counter+" mac addresses had multiple ip addresses");
 		System.out.println("");
 	}
 

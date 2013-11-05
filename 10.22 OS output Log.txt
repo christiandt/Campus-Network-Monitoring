@@ -1,0 +1,765 @@
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+fileNr: 1 frameNr: 10000
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+fileNr: 1 frameNr: 20000
+44
+45
+46
+fileNr: 1 frameNr: 30000
+47
+48
+49
+fileNr: 1 frameNr: 40000
+50
+51
+52
+53
+54
+fileNr: 1 frameNr: 50000
+55
+fileNr: 1 frameNr: 60000
+56
+fileNr: 1 frameNr: 70000
+fileNr: 1 frameNr: 80000
+57
+fileNr: 1 frameNr: 90000
+fileNr: 1 frameNr: 100000
+fileNr: 1 frameNr: 110000
+fileNr: 1 frameNr: 120000
+fileNr: 1 frameNr: 130000
+fileNr: 1 frameNr: 140000
+58
+fileNr: 1 frameNr: 150000
+59
+fileNr: 1 frameNr: 160000
+60
+fileNr: 1 frameNr: 170000
+61
+fileNr: 1 frameNr: 180000
+fileNr: 1 frameNr: 190000
+62
+63
+fileNr: 1 frameNr: 200000
+64
+65
+fileNr: 1 frameNr: 210000
+fileNr: 1 frameNr: 220000
+66
+fileNr: 1 frameNr: 230000
+67
+68
+fileNr: 1 frameNr: 240000
+69
+fileNr: 1 frameNr: 250000
+fileNr: 1 frameNr: 260000
+70
+fileNr: 1 frameNr: 270000
+71
+72
+fileNr: 1 frameNr: 280000
+fileNr: 1 frameNr: 290000
+73
+74
+fileNr: 1 frameNr: 300000
+fileNr: 1 frameNr: 310000
+75
+fileNr: 1 frameNr: 320000
+fileNr: 1 frameNr: 330000
+76
+fileNr: 1 frameNr: 340000
+77
+fileNr: 1 frameNr: 350000
+fileNr: 1 frameNr: 360000
+fileNr: 1 frameNr: 370000
+78
+fileNr: 1 frameNr: 380000
+79
+fileNr: 1 frameNr: 390000
+80
+fileNr: 1 frameNr: 400000
+81
+fileNr: 1 frameNr: 410000
+fileNr: 1 frameNr: 420000
+fileNr: 1 frameNr: 430000
+82
+fileNr: 1 frameNr: 440000
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+fileNr: 1 frameNr: 450000
+96
+97
+98
+fileNr: 1 frameNr: 460000
+99
+100
+101
+fileNr: 1 frameNr: 470000
+102
+103
+104
+105
+106
+107
+108
+fileNr: 1 frameNr: 480000
+109
+110
+111
+112
+113
+114
+115
+116
+fileNr: 1 frameNr: 490000
+117
+118
+119
+fileNr: 1 frameNr: 500000
+fileNr: 1 frameNr: 510000
+120
+121
+122
+fileNr: 1 frameNr: 520000
+123
+124
+fileNr: 1 frameNr: 530000
+125
+126
+127
+128
+129
+fileNr: 1 frameNr: 540000
+130
+fileNr: 1 frameNr: 550000
+fileNr: 1 frameNr: 560000
+fileNr: 1 frameNr: 570000
+fileNr: 1 frameNr: 580000
+fileNr: 1 frameNr: 590000
+fileNr: 1 frameNr: 600000
+fileNr: 1 frameNr: 610000
+fileNr: 1 frameNr: 620000
+fileNr: 1 frameNr: 630000
+fileNr: 1 frameNr: 640000
+131
+fileNr: 1 frameNr: 650000
+132
+fileNr: 1 frameNr: 660000
+133
+134
+fileNr: 1 frameNr: 670000
+fileNr: 1 frameNr: 680000
+135
+136
+fileNr: 1 frameNr: 690000
+fileNr: 1 frameNr: 700000
+137
+fileNr: 1 frameNr: 710000
+fileNr: 1 frameNr: 720000
+fileNr: 1 frameNr: 730000
+fileNr: 1 frameNr: 740000
+fileNr: 1 frameNr: 750000
+138
+139
+140
+fileNr: 1 frameNr: 760000
+141
+142
+143
+fileNr: 1 frameNr: 770000
+144
+fileNr: 1 frameNr: 780000
+145
+146
+fileNr: 1 frameNr: 790000
+147
+148
+fileNr: 1 frameNr: 800000
+149
+150
+151
+152
+153
+154
+
+
+155
+156
+fileNr: 2 frameNr: 10000
+fileNr: 2 frameNr: 20000
+157
+158
+159
+fileNr: 2 frameNr: 30000
+160
+fileNr: 2 frameNr: 40000
+161
+fileNr: 2 frameNr: 50000
+162
+fileNr: 2 frameNr: 60000
+fileNr: 2 frameNr: 70000
+fileNr: 2 frameNr: 80000
+fileNr: 2 frameNr: 90000
+163
+fileNr: 2 frameNr: 100000
+fileNr: 2 frameNr: 110000
+164
+fileNr: 2 frameNr: 120000
+165
+166
+167
+fileNr: 2 frameNr: 130000
+fileNr: 2 frameNr: 140000
+fileNr: 2 frameNr: 150000
+fileNr: 2 frameNr: 160000
+fileNr: 2 frameNr: 170000
+fileNr: 2 frameNr: 180000
+fileNr: 2 frameNr: 190000
+168
+169
+fileNr: 2 frameNr: 200000
+170
+171
+fileNr: 2 frameNr: 210000
+172
+173
+174
+fileNr: 2 frameNr: 220000
+175
+176
+fileNr: 2 frameNr: 230000
+177
+fileNr: 2 frameNr: 240000
+fileNr: 2 frameNr: 250000
+178
+fileNr: 2 frameNr: 260000
+179
+fileNr: 2 frameNr: 270000
+fileNr: 2 frameNr: 280000
+fileNr: 2 frameNr: 290000
+fileNr: 2 frameNr: 300000
+fileNr: 2 frameNr: 310000
+fileNr: 2 frameNr: 320000
+fileNr: 2 frameNr: 330000
+fileNr: 2 frameNr: 340000
+fileNr: 2 frameNr: 350000
+fileNr: 2 frameNr: 360000
+fileNr: 2 frameNr: 370000
+fileNr: 2 frameNr: 380000
+fileNr: 2 frameNr: 390000
+fileNr: 2 frameNr: 400000
+180
+fileNr: 2 frameNr: 410000
+fileNr: 2 frameNr: 420000
+fileNr: 2 frameNr: 430000
+fileNr: 2 frameNr: 440000
+fileNr: 2 frameNr: 450000
+fileNr: 2 frameNr: 460000
+fileNr: 2 frameNr: 470000
+fileNr: 2 frameNr: 480000
+fileNr: 2 frameNr: 490000
+181
+fileNr: 2 frameNr: 500000
+fileNr: 2 frameNr: 510000
+fileNr: 2 frameNr: 520000
+182
+fileNr: 2 frameNr: 530000
+fileNr: 2 frameNr: 540000
+fileNr: 2 frameNr: 550000
+183
+184
+fileNr: 2 frameNr: 560000
+185
+fileNr: 2 frameNr: 570000
+186
+fileNr: 2 frameNr: 580000
+fileNr: 2 frameNr: 590000
+187
+fileNr: 2 frameNr: 600000
+fileNr: 2 frameNr: 610000
+188
+189
+fileNr: 2 frameNr: 620000
+fileNr: 2 frameNr: 630000
+190
+fileNr: 2 frameNr: 640000
+fileNr: 2 frameNr: 650000
+fileNr: 2 frameNr: 660000
+191
+fileNr: 2 frameNr: 670000
+fileNr: 2 frameNr: 680000
+fileNr: 2 frameNr: 690000
+fileNr: 2 frameNr: 700000
+fileNr: 2 frameNr: 710000
+192
+fileNr: 2 frameNr: 720000
+fileNr: 2 frameNr: 730000
+193
+fileNr: 2 frameNr: 740000
+194
+fileNr: 2 frameNr: 750000
+fileNr: 2 frameNr: 760000
+fileNr: 2 frameNr: 770000
+fileNr: 2 frameNr: 780000
+195
+fileNr: 2 frameNr: 790000
+196
+fileNr: 2 frameNr: 800000
+197
+198
+fileNr: 2 frameNr: 810000
+fileNr: 2 frameNr: 820000
+199
+200
+fileNr: 2 frameNr: 830000
+201
+fileNr: 2 frameNr: 840000
+202
+fileNr: 2 frameNr: 850000
+203
+fileNr: 2 frameNr: 860000
+fileNr: 2 frameNr: 870000
+fileNr: 2 frameNr: 880000
+204
+fileNr: 2 frameNr: 890000
+fileNr: 2 frameNr: 900000
+fileNr: 2 frameNr: 910000
+205
+fileNr: 2 frameNr: 920000
+206
+fileNr: 2 frameNr: 930000
+fileNr: 2 frameNr: 940000
+fileNr: 2 frameNr: 950000
+207
+fileNr: 2 frameNr: 960000
+208
+fileNr: 2 frameNr: 970000
+fileNr: 2 frameNr: 980000
+fileNr: 2 frameNr: 990000
+209
+210
+fileNr: 2 frameNr: 1000000
+211
+212
+213
+214
+fileNr: 2 frameNr: 1010000
+fileNr: 2 frameNr: 1020000
+215
+fileNr: 2 frameNr: 1030000
+216
+fileNr: 2 frameNr: 1040000
+217
+fileNr: 2 frameNr: 1050000
+fileNr: 2 frameNr: 1060000
+218
+fileNr: 2 frameNr: 1070000
+219
+220
+221
+fileNr: 2 frameNr: 1080000
+222
+fileNr: 2 frameNr: 1090000
+fileNr: 2 frameNr: 1100000
+223
+224
+225
+226
+227
+228
+229
+230
+231
+fileNr: 2 frameNr: 1110000
+232
+
+
+233
+234
+235
+236
+fileNr: 3 frameNr: 10000
+237
+238
+fileNr: 3 frameNr: 20000
+239
+fileNr: 3 frameNr: 30000
+fileNr: 3 frameNr: 40000
+fileNr: 3 frameNr: 50000
+fileNr: 3 frameNr: 60000
+fileNr: 3 frameNr: 70000
+fileNr: 3 frameNr: 80000
+240
+241
+fileNr: 3 frameNr: 90000
+fileNr: 3 frameNr: 100000
+242
+fileNr: 3 frameNr: 110000
+fileNr: 3 frameNr: 120000
+243
+fileNr: 3 frameNr: 130000
+fileNr: 3 frameNr: 140000
+fileNr: 3 frameNr: 150000
+fileNr: 3 frameNr: 160000
+244
+245
+fileNr: 3 frameNr: 170000
+246
+fileNr: 3 frameNr: 180000
+fileNr: 3 frameNr: 190000
+247
+fileNr: 3 frameNr: 200000
+fileNr: 3 frameNr: 210000
+fileNr: 3 frameNr: 220000
+fileNr: 3 frameNr: 230000
+fileNr: 3 frameNr: 240000
+fileNr: 3 frameNr: 250000
+fileNr: 3 frameNr: 260000
+fileNr: 3 frameNr: 270000
+248
+fileNr: 3 frameNr: 280000
+fileNr: 3 frameNr: 290000
+fileNr: 3 frameNr: 300000
+fileNr: 3 frameNr: 310000
+fileNr: 3 frameNr: 320000
+249
+250
+251
+fileNr: 3 frameNr: 330000
+252
+253
+fileNr: 3 frameNr: 340000
+fileNr: 3 frameNr: 350000
+fileNr: 3 frameNr: 360000
+254
+fileNr: 3 frameNr: 370000
+fileNr: 3 frameNr: 380000
+fileNr: 3 frameNr: 390000
+255
+256
+257
+fileNr: 3 frameNr: 400000
+fileNr: 3 frameNr: 410000
+fileNr: 3 frameNr: 420000
+fileNr: 3 frameNr: 430000
+258
+fileNr: 3 frameNr: 440000
+259
+260
+261
+262
+fileNr: 3 frameNr: 450000
+fileNr: 3 frameNr: 460000
+fileNr: 3 frameNr: 470000
+263
+fileNr: 3 frameNr: 480000
+fileNr: 3 frameNr: 490000
+fileNr: 3 frameNr: 500000
+fileNr: 3 frameNr: 510000
+fileNr: 3 frameNr: 520000
+fileNr: 3 frameNr: 530000
+fileNr: 3 frameNr: 540000
+fileNr: 3 frameNr: 550000
+fileNr: 3 frameNr: 560000
+fileNr: 3 frameNr: 570000
+fileNr: 3 frameNr: 580000
+fileNr: 3 frameNr: 590000
+fileNr: 3 frameNr: 600000
+fileNr: 3 frameNr: 610000
+fileNr: 3 frameNr: 620000
+fileNr: 3 frameNr: 630000
+fileNr: 3 frameNr: 640000
+264
+265
+fileNr: 3 frameNr: 650000
+fileNr: 3 frameNr: 660000
+fileNr: 3 frameNr: 670000
+fileNr: 3 frameNr: 680000
+fileNr: 3 frameNr: 690000
+fileNr: 3 frameNr: 700000
+266
+267
+fileNr: 3 frameNr: 710000
+fileNr: 3 frameNr: 720000
+268
+fileNr: 3 frameNr: 730000
+fileNr: 3 frameNr: 740000
+269
+fileNr: 3 frameNr: 750000
+270
+fileNr: 3 frameNr: 760000
+fileNr: 3 frameNr: 770000
+271
+fileNr: 3 frameNr: 780000
+fileNr: 3 frameNr: 790000
+272
+fileNr: 3 frameNr: 800000
+fileNr: 3 frameNr: 810000
+273
+274
+fileNr: 3 frameNr: 820000
+275
+fileNr: 3 frameNr: 830000
+fileNr: 3 frameNr: 840000
+276
+fileNr: 3 frameNr: 850000
+277
+fileNr: 3 frameNr: 860000
+fileNr: 3 frameNr: 870000
+278
+fileNr: 3 frameNr: 880000
+fileNr: 3 frameNr: 890000
+fileNr: 3 frameNr: 900000
+fileNr: 3 frameNr: 910000
+fileNr: 3 frameNr: 920000
+fileNr: 3 frameNr: 930000
+279
+fileNr: 3 frameNr: 940000
+280
+281
+282
+fileNr: 3 frameNr: 950000
+283
+284
+285
+286
+fileNr: 3 frameNr: 960000
+fileNr: 3 frameNr: 970000
+287
+fileNr: 3 frameNr: 980000
+fileNr: 3 frameNr: 990000
+fileNr: 3 frameNr: 1000000
+288
+fileNr: 3 frameNr: 1010000
+fileNr: 3 frameNr: 1020000
+fileNr: 3 frameNr: 1030000
+fileNr: 3 frameNr: 1040000
+289
+fileNr: 3 frameNr: 1050000
+290
+291
+fileNr: 3 frameNr: 1060000
+292
+293
+fileNr: 3 frameNr: 1070000
+294
+295
+296
+297
+298
+fileNr: 3 frameNr: 1080000
+299
+
+
+fileNr: 4 frameNr: 10000
+fileNr: 4 frameNr: 20000
+300
+301
+fileNr: 4 frameNr: 30000
+302
+303
+fileNr: 4 frameNr: 40000
+fileNr: 4 frameNr: 50000
+304
+fileNr: 4 frameNr: 60000
+305
+306
+fileNr: 4 frameNr: 70000
+307
+fileNr: 4 frameNr: 80000
+308
+309
+fileNr: 4 frameNr: 90000
+310
+fileNr: 4 frameNr: 100000
+fileNr: 4 frameNr: 110000
+311
+312
+fileNr: 4 frameNr: 120000
+313
+314
+fileNr: 4 frameNr: 130000
+315
+fileNr: 4 frameNr: 140000
+316
+fileNr: 4 frameNr: 150000
+317
+fileNr: 4 frameNr: 160000
+fileNr: 4 frameNr: 170000
+318
+319
+320
+321
+322
+323
+fileNr: 4 frameNr: 180000
+324
+fileNr: 4 frameNr: 190000
+325
+fileNr: 4 frameNr: 200000
+fileNr: 4 frameNr: 210000
+fileNr: 4 frameNr: 220000
+326
+327
+fileNr: 4 frameNr: 230000
+328
+fileNr: 4 frameNr: 240000
+329
+fileNr: 4 frameNr: 250000
+330
+331
+332
+fileNr: 4 frameNr: 260000
+333
+fileNr: 4 frameNr: 270000
+334
+fileNr: 4 frameNr: 280000
+335
+336
+337
+fileNr: 4 frameNr: 290000
+fileNr: 4 frameNr: 300000
+338
+fileNr: 4 frameNr: 310000
+339
+340
+341
+fileNr: 4 frameNr: 320000
+fileNr: 4 frameNr: 330000
+fileNr: 4 frameNr: 340000
+342
+fileNr: 4 frameNr: 350000
+343
+344
+fileNr: 4 frameNr: 360000
+345
+346
+347
+348
+fileNr: 4 frameNr: 370000
+349
+350
+fileNr: 4 frameNr: 380000
+fileNr: 4 frameNr: 390000
+fileNr: 4 frameNr: 400000
+351
+fileNr: 4 frameNr: 410000
+
+
+352
+fileNr: 5 frameNr: 10000
+353
+fileNr: 5 frameNr: 20000
+fileNr: 5 frameNr: 30000
+fileNr: 5 frameNr: 40000
+354
+fileNr: 5 frameNr: 50000
+fileNr: 5 frameNr: 60000
+355
+fileNr: 5 frameNr: 70000
+356
+fileNr: 5 frameNr: 80000
+357
+fileNr: 5 frameNr: 90000
+fileNr: 5 frameNr: 100000
+fileNr: 5 frameNr: 110000
+fileNr: 5 frameNr: 120000
+358
+fileNr: 5 frameNr: 130000
+359
+fileNr: 5 frameNr: 140000
+fileNr: 5 frameNr: 150000
+
+
+13 devices has got 2 number of ip adresses
+1 devices has got 3 number of ip adresses
+1 devices has got 6 number of ip adresses
+2 devices has got 9 number of ip adresses
+1 devices has got 11 number of ip adresses
+1 devices has got 15 number of ip adresses
+1 devices has got 38 number of ip adresses
+1 devices has got 97 number of ip adresses
+1 devices has got 101 number of ip adresses
+1 devices has got 203 number of ip adresses
+1 devices has got 253 number of ip adresses
+1 devices has got 277 number of ip adresses
+1 devices has got 428 number of ip adresses
+1 devices has got 524 number of ip adresses
+1 devices has got 680 number of ip adresses
+1 devices has got 1340 number of ip adresses
+1 devices has got 11910 number of ip adresses
+30 mac addresses had multiple ip addresses
+
+
+Number of unique ip to os mappings (using my method) = 6207
+ipMap.size (number of unique p0f OS fingerprints) = 6190
+
+Total number of unique OS fingerprints = 359
+iOS iPhone or iPad had 91 occurances. Percentage: 25.35
+Linux 2.2.x-3.x had 3 occurances. Percentage: 0.84
+Linux (Android) had 1 occurances. Percentage: 0.28
+Linux 3.x had 47 occurances. Percentage: 13.09
+Linux 2.2.x-3.x (no timestamps) had 1 occurances. Percentage: 0.28
+Windows NT kernel 5.x had 4 occurances. Percentage: 1.11
+Linux 2.4.x had 2 occurances. Percentage: 0.56
+Windows XP had 1 occurances. Percentage: 0.28
+Linux 2.4.x-2.6.x had 3 occurances. Percentage: 0.84
+Windows NT kernel had 3 occurances. Percentage: 0.84
+Windows 7 or 8 had 61 occurances. Percentage: 16.99
+Mac OS X 10.x had 51 occurances. Percentage: 14.21
+??? had 7 occurances. Percentage: 1.95
+null had 84 occurances. Percentage: 23.4
+Finished
+

@@ -1,0 +1,32 @@
+
+
+
+USEFUL NOTES:
+-if you've created a binary file with the java program, and do any changes to the code afterwards, you might have to create a new binary
+since the code of the binary now doesn't contain your changes. 
+
+
+
+
+
+
+
+
+
+
+USEFUL COMMANDS:
+For running the OS fingerprinting tool:
+./p0f -r <infile.cap> -o <outfile.txt>
+example: ./p0f -r ../captures/10.24/tuesday-01.cap -o ../captures/10.22/tuesday_10.22_SO_fingerprinting_log.txt
+
+For converting a .cap file to .txt:
+tshark -V -r <infile.cap> > <outfile.txt>
+example: tshark -V -r 1.TCP_only.pcap > 1.no_wlan.txt
+
+Splitting a file into time chunks
+editcap -i <secondes per file> <infile> <outfile>
+example: editcap -i 300 test.pcap test_5minutes.pcap
+
+
+
+
