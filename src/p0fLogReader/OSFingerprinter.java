@@ -36,10 +36,10 @@ public class OSFingerprinter implements Serializable {
 //		pathToTxtFile = getClass().getClassLoader().getResource(".").getPath() + "test_tcp_only.convertet.txt";
 //		pathToLog = getClass().getClassLoader().getResource(".").getPath() + "1.TCP_only_OS_Fingerprinting_log.txt";
 //		pathToTxtFile = getClass().getClassLoader().getResource(".").getPath() + "1.TCP_only.txt";
-		pathToP0fFingerprintsFile = "tuesday_10.22_OS_fingerprinting_log.txt";
-		pathToWorkingDirectory = "/home/chucky/BIG FILES/captures/10.22/tcp_only/";
+		pathToP0fFingerprintsFile = "thursday_10.24_OS_fingerprinting_log.txt";
+		pathToWorkingDirectory = "/home/chucky/BIG FILES/captures/10.24/tcp_only/";
 		
-		textFileName = "tuesday_30_min_tcp_only_text_";
+		textFileName = "thursday_30_min_tcp_only_text_";
 		textFileEnding = ".txt";
 		numberOfTxtFiles = 5;
 		osfFileName = "osf.javaObject";
@@ -88,7 +88,7 @@ public class OSFingerprinter implements Serializable {
 			} catch (IOException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
-			} catch (ClassNotFoundException e) {
+			} catch (ClassNotFoundException e) {	
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}

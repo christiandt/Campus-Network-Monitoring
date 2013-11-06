@@ -5,7 +5,8 @@ USEFUL NOTES:
 -if you've created a binary file with the java program, and do any changes to the code afterwards, you might have to create a new binary
 since the code of the binary now doesn't contain your changes. 
 
-
+USEFUL WIRESHARK FILTERS:
+(ip.proto == 6) -filters out everything but TCP traffic
 
 
 
@@ -26,6 +27,36 @@ example: tshark -V -r 1.TCP_only.pcap > 1.no_wlan.txt
 Splitting a file into time chunks
 editcap -i <secondes per file> <infile> <outfile>
 example: editcap -i 300 test.pcap test_5minutes.pcap
+
+
+THINGS THAT COULD BE ISSUES:
+__________________________________________________________________________________________________
+when running "tshark -V" in order to convert .cap files to .txt files I sometimes get errors like:
+chucky@NiX:~/BIG FILES/captures/10.24/tcp_only$ tshark -V -r splitted_thursday_00000_20131024125917.cap > tuesday_30_min_tcp_only_text_1.txt
+
+** (process:8438): WARNING **: Dissector bug, protocol WebSocket, in packet 475813: tvbuff.c:954: failed assertion "DISSECTOR_ASSERT_NOT_REACHED"
+
+** (process:8438): WARNING **: Dissector bug, protocol WebSocket, in packet 481460: tvbuff.c:954: failed assertion "DISSECTOR_ASSERT_NOT_REACHED"
+
+** (process:8438): WARNING **: Dissector bug, protocol WebSocket, in packet 486016: tvbuff.c:954: failed assertion "DISSECTOR_ASSERT_NOT_REACHED"
+
+** (process:8438): WARNING **: Dissector bug, protocol WebSocket, in packet 486017: tvbuff.c:954: failed assertion "DISSECTOR_ASSERT_NOT_REACHED"
+
+** (process:8438): WARNING **: Dissector bug, protocol WebSocket, in packet 486018: tvbuff.c:954: failed assertion "DISSECTOR_ASSERT_NOT_REACHED"
+
+** (process:8438): WARNING **: Dissector bug, protocol WebSocket, in packet 486020: tvbuff.c:954: failed assertion "DISSECTOR_ASSERT_NOT_REACHED"
+
+** (process:8438): WARNING **: Dissector bug, protocol WebSocket, in packet 491326: tvbuff.c:954: failed assertion "DISSECTOR_ASSERT_NOT_REACHED"
+
+** (process:8438): WARNING **: Dissector bug, protocol WebSocket, in packet 491327: tvbuff.c:954: failed assertion "DISSECTOR_ASSERT_NOT_REACHED"
+
+** (process:8438): WARNING **: Dissector bug, protocol WebSocket, in packet 491336: tvbuff.c:954: failed assertion "DISSECTOR_ASSERT_NOT_REACHED"
+.
+.
+.
+______________________________________________________________________________________________________________________
+
+
 
 
 
