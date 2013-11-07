@@ -1,0 +1,12 @@
+mono NetworkMiner.exe
+
+to run the networkminer.exe program
+
+
+Ether cap:
+
+mkdir build
+cd build
+apt-get install cmake
+apt-get install python-gtk2-dev libnet1-dev
+cmake -DCURSES_LIBRARY=/usr/lib64/libncurses.so -DCURSES_INCLUDE_PATH=/usr/include ../
