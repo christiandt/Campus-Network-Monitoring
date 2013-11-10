@@ -1,0 +1,22 @@
+The filter to apply to filter out the control packets:
+wlan.fc.type == 0  //Management frame
+wlan.fc.type == 1  //Control frame
+wlan.fc.type == 2  // Data frames, so we should kinda not be
+			counting these, but some of them are used as
+			control frames. 
+
+	Specifically:
+	wlan.fc.subtype == 4 // "Null data frame". -"Wireless clients
+				commonly use a null data frame sent
+				to the access point to indicate a
+				change in sleep state by setting the
+				power management bit in the frame
+				control field appropriately"
+				(http://www.wi-fiplanet.com/tutorials/article.php/3442991)
+	wlan.fc.subtype == 5 // "No Data Acknoledgement". -This packet
+				is used for power saving and QoS. 
+				(campsmur.cat/files/ist_2007.pdf)
+
+
+(wlan.fc.type == 0) || (wlan.fc.type == 1) || ((wlan.fc.type == 2) && ((wlan.fc.subtype == 4) || (wlan.fc.subtype == 5)))
+	
