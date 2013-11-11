@@ -9,7 +9,7 @@ Packets left with filter 2: 2027828 = 62.4%
 file 2:
 Total number of packets: 3398077
 Packets left with filter 1: 1940971 = 57.1%
-Packets left with 																																																																																																																																																																					filter 2: 2078235 = 61.2%
+Packets left  withfilter 2: 2078235 = 61.2%
 file 3:
 Total number of packets: 3315970
 Packets left with filter 1: 2021927 = 61%
@@ -22,8 +22,138 @@ Totals:
 Total number of packets: 13957099
 Total number of packets left with filter 1: 8116624 = 58.2%
 Total number of packets left with filter 2: 8643646 = 61.9%
-22.10																																																																																																																																																																																																																																																																																																																																																																																																																					
-																																																																																																									
+
+22.10
+file 1:
+Total number of packets: 2587776
+Packets left with filter 1: 1502279 = 58.1%
+Packets left with filter 2: 1502279 = 58.1%
+file 2:
+Total number of packets: 3142016
+Packets left with filter 1: 1734201 = 55.2%
+Packets left with filter 2: 1734201 = 55.2%
+file 3:
+Total number of packets: 3237114
+Packets left with filter 1: 1838759 = 56.8%
+Packets left with filter 2: 1838759 = 56.8%
+file 4:
+Total number of packets: 2025755
+Packets left with filter 1: 1310286 = 64.7%
+Packets left with filter 2: 1310287 = 64.7%
+file 5:
+Total number of packets: 542903
+Packets left with filter 1: 311405 = 57.4%
+Packets left with filter 2: 311405 = 57.4%
+Totals:
+Total number of packets:
+Total number of packets left with filter 1:
+Total number of packets left with filter 2: 
+
+23.10
+file 1:
+Total number of packets: 3721221
+Packets left with filter 1: 2062658 = 55.4%
+Packets left with filter 2: 2062658 = 55.4%
+file 2:
+Total number of packets: 2626136
+Packets left with filter 1: 1475713 = 56.2%
+Packets left with filter 2: 1566476 = 59.6%
+file 3:
+Total number of packets: 
+Packets left with filter 1:
+Packets left with filter 2:
+file 4:
+Total number of packets: 
+Packets left with filter 1:
+Packets left with filter 2:
+file 5:
+Total number of packets: 
+Packets left with filter 1:
+Packets left with filter 2:
+Totals:
+Total number of packets:
+Total number of packets left with filter 1:
+Total number of packets left with filter 2: 
+
+
+24.10
+file 1:
+Total number of packets: 
+Packets left with filter 1:
+Packets left with filter 2: 
+file 2:
+Total number of packets: 
+Packets left with filter 1:
+Packets left with filter 2:
+file 3:
+Total number of packets: 
+Packets left with filter 1:
+Packets left with filter 2:
+file 4:
+Total number of packets: 
+Packets left with filter 1:
+Packets left with filter 2:
+file 5:
+Total number of packets: 
+Packets left with filter 1:
+Packets left with filter 2:
+Totals:
+Total number of packets:
+Total number of packets left with filter 1:
+Total number of packets left with filter 2: 
+
+
+25.10
+file 1:
+Total number of packets: 
+Packets left with filter 1:
+Packets left with filter 2: 
+file 2:
+Total number of packets: 
+Packets left with filter 1:
+Packets left with filter 2:
+file 3:
+Total number of packets: 
+Packets left with filter 1:
+Packets left with filter 2:
+file 4:
+Total number of packets: 
+Packets left with filter 1:
+Packets left with filter 2:
+file 5:
+Total number of packets: 
+Packets left with filter 1:
+Packets left with filter 2:
+Totals:
+Total number of packets:
+Total number of packets left with filter 1:
+Total number of packets left with filter 2: 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
