@@ -1,0 +1,55 @@
+The filter to apply to filter out the control packets:
+wlan.fc.type == 0  //Management frame
+wlan.fc.type == 1  //Control frame
+wlan.fc.type == 2  // Data frames, so we should kinda not be
+			counting these, but some of them are used as
+			control frames (http://www.iith.ac.in/~tbr/teaching/docs/802.11MACFrameTypes.pdf). 
+
+	Specifically:
+	wlan.fc.subtype == 4 // "Null data frame". -"Wireless clients
+				commonly use a null data frame sent
+				to the access point to indicate a
+				change in sleep state by setting the
+				power management bit in the frame
+				control field appropriately"
+				(http://www.wi-fiplanet.com/tutorials/article.php/3442991)
+	wlan.fc.subtype == 5 // CF-Ack (Congestion Free 				
+				Acknowledgement)"No Data
+				Acknoledgement". -This packet
+				is used for power saving and QoS. 
+				(campsmur.cat/files/ist_2007.pdf)
+	wlan.fc.subtype == 6 // CF-Poll 
+				(http://clusterfie.epn.edu.ec/ibernal/html/CURSOS/Oct05Marzo06/Inalambricas/Trabajo1/t4.pdf 
+				802.11 Wireless Networks: The Definitive Guide - O'Reilly) 
+	wlan.fc.subtype == 7 // CF-Ack + CF-Poll
+	wlan.fc.subtype == 12// QoS Null (no data)
+	wlan.fc.subtype == 13// Reserved
+	wlan.fc.subtype == 14// QoS CF-Poll (no data)
+	wlan.fc.subtype == 15// QoS CF-Ack + CF-Poll (no data)
+
+
+"The Applied filter:
+((wlan.fc.type == 0) || (wlan.fc.type == 1) || ((wlan.fc.type == 2) && ((wlan.fc.subtype == 4) || (wlan.fc.subtype == 5) || (wlan.fc.subtype == 6) || (wlan.fc.subtype == 7) ||	(wlan.fc.subtype == 12) || (wlan.fc.subtype == 13) || (wlan.fc.subtype == 14) || (wlan.fc.subtype == 15))))
+"
+
+THOUGHTS:
+-maybe the sysadmins know that the network is super congested and have implemented the PCF to cope with it in some degree. 
+-interesting that the network is using some degree of Qos
+-I have no idea what the (wlan.fc.type == 3) packets are
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
