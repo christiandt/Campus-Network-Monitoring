@@ -28,14 +28,21 @@ wlan.fc.type == 2  // Data frames, so we should kinda not be
 	wlan.fc.subtype == 15// QoS CF-Ack + CF-Poll (no data)
 
 
-"The Applied filter:
-((wlan.fc.type == 0) || (wlan.fc.type == 1) || ((wlan.fc.type == 2) && ((wlan.fc.subtype == 4) || (wlan.fc.subtype == 5) || (wlan.fc.subtype == 6) || (wlan.fc.subtype == 7) ||	(wlan.fc.subtype == 12) || (wlan.fc.subtype == 13) || (wlan.fc.subtype == 14) || (wlan.fc.subtype == 15))))
+"The Applied filter 1 (without filtering reserved frames):
+((wlan.fc.type == 0) || (wlan.fc.type == 1) || ((wlan.fc.type == 2) && ((wlan.fc.subtype == 4) || (wlan.fc.subtype == 5) || (wlan.fc.subtype == 6) || (wlan.fc.subtype == 7) || (wlan.fc.subtype == 12) || (wlan.fc.subtype == 14) || (wlan.fc.subtype == 15))))
 "
+"The Applied filter 2 (with filtering reserved frames):
+((wlan.fc.type == 0) || (wlan.fc.type == 1) || (wlan.fc.type == 3) || ((wlan.fc.type == 2) && ((wlan.fc.subtype == 4) || (wlan.fc.subtype == 5) || (wlan.fc.subtype == 6) || (wlan.fc.subtype == 7) || (wlan.fc.subtype == 12) || (wlan.fc.subtype == 13) || (wlan.fc.subtype == 14) || (wlan.fc.subtype == 15))))
+"
+
 
 THOUGHTS:
 -maybe the sysadmins know that the network is super congested and have implemented the PCF to cope with it in some degree. 
 -interesting that the network is using some degree of Qos
+	- show some of the different priorityes
 -I have no idea what the (wlan.fc.type == 3) packets are
+	- there is also some type==2 reserved frames
+	- they have no receive or source address
 
 
 
