@@ -34,7 +34,9 @@ Totals:
 Total number of packets: 13957099
 Total number of packets left with filter 1: 8116624 = 58.2%
 Total number of packets left with filter 2: 8643646 = 61.9%
-
+Total file size: 5964.5MB
+Total Bytes control: 1111.4MB = 18.6%
+Total Bytes control + reserved: 1353MB = 22.7%
 
 10.22
 file 1:
@@ -55,27 +57,30 @@ file 3:
 Total number of packets: 3237114
 Packets left with filter 1: 1838759 = 56.8%
 Packets left with filter 2: 1838759 = 56.8%
-File size: 
-File size after filter 1: 
-File size after filter 2:
-file 4:
+File size: 950.8MB
+File size after filter 1: 94.1MB
+File size after filter 2: 94.1MB
+file 4: 
 Total number of packets: 2025755
 Packets left with filter 1: 1310286 = 64.7%
 Packets left with filter 2: 1310287 = 64.7%
-File size: 
-File size after filter 1: 
-File size after filter 2:
+File size: 418.4MB
+File size after filter 1: 70.1MB
+File size after filter 2: 70.1MB
 file 5:
 Total number of packets: 542903
 Packets left with filter 1: 311405 = 57.4%
 Packets left with filter 2: 311405 = 57.4%
-File size: 
-File size after filter 1: 
-File size after filter 2:
+File size: 130.5MB
+File size after filter 1: 16.0MB
+File size after filter 2: 16.0MB
 Totals:
 Total number of packets: 11535564
 Total number of packets left with filter 1: 6696930 = 58.1%
 Total number of packets left with filter 2: 6696931 = 58.1%
+Total file size: 3265.2MB
+Total Bytes control: 351.8MB = 10.8%
+Total Bytes control + reserved: 351.8MB = 10.8%
 
 
 10.23
@@ -83,41 +88,44 @@ file 1:
 Total number of packets: 3721221
 Packets left with filter 1: 2062658 = 55.4%
 Packets left with filter 2: 2062658 = 55.4%
-File size: 
-File size after filter 1: 
-File size after filter 2:
+File size: 1,535.0MB
+File size after filter 1: 227.0MB
+File size after filter 2: 257.2MB
 file 2:
 Total number of packets: 2626136
 Packets left with filter 1: 1475713 = 56.2%
 Packets left with filter 2: 1566476 = 59.6%
-File size: 
-File size after filter 1: 
-File size after filter 2:
+File size: 1,146.6MB
+File size after filter 1: 178.1MB
+File size after filter 2: 215.2MB
 file 3:
 Total number of packets: 3483539
 Packets left with filter 1: 1905005 = 54.7%
 Packets left with filter 2: 2010153 = 57.7%
-File size: 
-File size after filter 1: 
-File size after filter 2:
+File size: 1,763.1MB
+File size after filter 1: 206.2MB
+File size after filter 2: 243.7MB
 file 4:
 Total number of packets: 3130859
 Packets left with filter 1: 1739656 = 55.6%
 Packets left with filter 2: 1838894 = 58.7%
-File size: 
-File size after filter 1: 
-File size after filter 2:
+File size: 1,458.0MB
+File size after filter 1: 186.9MB
+File size after filter 2: 217.1MB
 file 5:
 Total number of packets: 45325
 Packets left with filter 1: 26289 = 58.0%
 Packets left with filter 2: 28147 = 62.1%
-File size: 
-File size after filter 1: 
-File size after filter 2:
+File size: 18.8MB
+File size after filter 1: 2.9MB
+File size after filter 2: 3.4MB
 Totals:
 Total number of packets: 13007080
 Total number of packets left with filter 1: 7209321 = 55.4%
 Total number of packets left with filter 2: 7506328 = 57.7%
+Total file size: 5921.5MB
+Total Bytes control: 801.1MB = 13.5%
+Total Bytes control + reserved: 936.6MB = 15.8%
 
 
 10.24
@@ -125,41 +133,44 @@ file 1:
 Total number of packets: 2905149
 Packets left with filter 1: 1627240 = 56.0%
 Packets left with filter 2: 1627241 = 56.0%
-File size: 
-File size after filter 1: 
-File size after filter 2:
+File size: 896.6MB
+File size after filter 1: 84.6MB
+File size after filter 2: 84.6MB
 file 2:
 Total number of packets: 3110312
 Packets left with filter 1: 1716962 = 55.2%
 Packets left with filter 2: 1716962 = 55.2%
-File size: 
-File size after filter 1: 
-File size after filter 2:
+File size: 1,081.6MB
+File size after filter 1: 92.7MB
+File size after filter 2: 92.8MB
 file 3:
 Total number of packets: 3545498
 Packets left with filter 1: 1956300 = 55.2%
 Packets left with filter 2: 1956300 = 55.2%
-File size: 
-File size after filter 1: 
-File size after filter 2:
+File size: 1,090.4MB
+File size after filter 1: 101.5MB 
+File size after filter 2: 101.4MB
 file 4:
 Total number of packets: 2456251
 Packets left with filter 1: 1455455 = 59.3%
 Packets left with filter 2: 1455455 = 59.3%
-File size: 
-File size after filter 1: 
-File size after filter 2:
+File size: 737.6MB
+File size after filter 1: 78.3MB
+File size after filter 2: 78.4MB
 file 5:
 Total number of packets: 290355
 Packets left with filter 1: 161768 = 55.7%
 Packets left with filter 2: 161768 = 55.7%
-File size: 
-File size after filter 1: 
-File size after filter 2:
+File size: 98.2MB
+File size after filter 1: 8.6MB
+File size after filter 2: 8.6MB
 Totals:
 Total number of packets: 12307565
 Total number of packets left with filter 1: 6917725 = 56.2%
 Total number of packets left with filter 2: 6917726 = 56.2%
+Total file size: 3904.4MB
+Total Bytes control: 365.7MB
+Total Bytes control + reserved: 365.8MB
 
 
 10.25
@@ -167,41 +178,44 @@ file 1:
 Total number of packets: 3893012
 Packets left with filter 1: 2084110 = 53.5%
 Packets left with filter 2: 2196373 = 56.4%
-File size: 
-File size after filter 1: 
-File size after filter 2:
+File size: 1,701.1MB
+File size after filter 1: 195.7MB
+File size after filter 2: 220.9MB
 file 2:
 Total number of packets: 3313820
 Packets left with filter 1: 1810836 = 54.6%
 Packets left with filter 2: 1906781 = 57.5%
-File size: 
-File size after filter 1: 
-File size after filter 2:
+File size: 1,578.6MB
+File size after filter 1: 182.4MB
+File size after filter 2: 207.9MB
 file 3:
 Total number of packets: 2482452
 Packets left with filter 1: 1345472 = 54.2%
 Packets left with filter 2: 1403895 = 56.6%
-File size: 
-File size after filter 1: 
-File size after filter 2:
+File size: 1,312.5MB
+File size after filter 1: 143.6MB
+File size after filter 2: 163.3MB
 file 4:
 Total number of packets: 4125326
 Packets left with filter 1: 1871556 = 45.4%
 Packets left with filter 2: 2020665 = 49.0%
-File size: 
+File size: 2,845.7MB
 File size after filter 1: 
 File size after filter 2:
 file 5:
 Total number of packets: 31937
 Packets left with filter 1: 18432 = 57.7%
 Packets left with filter 2: 18690 = 58.5%
-File size: 
+File size: 13.9MB
 File size after filter 1: 
 File size after filter 2:
 Totals:
 Total number of packets: 13846547
 Total number of packets left with filter 1: 7130406 = 51.5%
 Total number of packets left with filter 2: 7546404 = 54.5%
+Total file size:
+Total Bytes control:
+Total Bytes control + reserved:
 
 
 Grand Total number of packets: 64653855
