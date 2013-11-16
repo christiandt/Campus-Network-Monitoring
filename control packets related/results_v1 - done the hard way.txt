@@ -1,5 +1,8 @@
-RESULTS
+RESULTS - done the hard way...
 (each file represent 30 min of traffic)
+(These results were obtained by saving the filtered packets 
+as a file and checking the filesize, check out the RESULTS_v2 for
+more accurate results)
 
 10.21
 file 1:
@@ -200,15 +203,15 @@ Total number of packets: 4125326
 Packets left with filter 1: 1871556 = 45.4%
 Packets left with filter 2: 2020665 = 49.0%
 File size: 2,845.7MB
-File size after filter 1: 
-File size after filter 2:
+File size after filter 1: 218.5MB
+File size after filter 2: 259.7MB
 file 5:
 Total number of packets: 31937
 Packets left with filter 1: 18432 = 57.7%
 Packets left with filter 2: 18690 = 58.5%
 File size: 13.9MB
-File size after filter 1: 
-File size after filter 2:
+File size after filter 1: 2.2MB
+File size after filter 2: 2.3MB
 Totals:
 Total number of packets: 13846547
 Total number of packets left with filter 1: 7130406 = 51.5%
