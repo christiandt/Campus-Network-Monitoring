@@ -1,5 +1,3 @@
-USER AGENT STRINGS
-
 APPLICATIONS,OCCURENCES
 dropbox,105
 itunes,35
@@ -54,7 +52,7 @@ yahoo fantasy football,1
 
 
 
-BROWSERS
+BROWSERS,OCCURENCES
 chrome,299
 safari,297
 msie,65
@@ -62,9 +60,9 @@ firefox,57
 opera,1
 
 
-SYSTEM
-macintosh
-windows
-iphone
-ipad
-android
+SYSTEM,OCCURENCES
+macintosh,
+windows,
+iphone,
+ipad,
+android,
