@@ -1,4 +1,4 @@
-APPLICATIONS,OCCURENCES
+APPLICATIONS,OCCURRENCES
 dropbox,105
 itunes,35
 instagram,25
@@ -52,7 +52,7 @@ yahoo fantasy football,1
 
 
 
-BROWSERS,OCCURENCES
+BROWSERS,OCCURRENCES
 chrome,299
 safari,297
 msie,65
@@ -60,7 +60,7 @@ firefox,57
 opera,1
 
 
-SYSTEM,OCCURENCES
+SYSTEM,OCCURRENCES
 macintosh,
 windows,
 iphone,
