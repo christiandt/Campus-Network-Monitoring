@@ -17,7 +17,7 @@
 *.twitter.com,1472
 *.adnxs.com,1454
 *.facebook.com,1374
-*..cloudfront.net,1319
+*.cloudfront.net,1319
 *.espncdn.com,1220
 *.images-amazon.com,1198
 *.wolframalpha.com,1144
@@ -322,7 +322,7 @@
 *.sbadventureco.com,81
 *.columbia.edu,81
 *.ykimg.com,81
-*..blogspot.com,81
+*.blogspot.com,81
 *.flurry.com,81
 *.fastclick.net,81
 *.tout.com,81
