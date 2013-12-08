@@ -1,3 +1,16 @@
+Firstly, we tried to find out about operating systems using a OS fingerprinting tool called p0f. It has proven to be not that specific, and only works on one of the two types of captures done (the one from Airodump, and not Wireshark). It might be that the software is simply a bit outdated. For intstance, p0f is not able to read .pcapng files. We have tried other programs, the wikipedia article[3] has a list of other programs that can be used for OS fingerprinting. We tried passive fingerprinting programs like NetworkMiner[1] or Ettercap[2], but these didn’t work very well. It seems like these programs are more tailored to doing live passive fingerprinting than reading a file. We also tried to convert the .pcapng files to .pcap files but this didn’t work either. It seems like the problem is the radiotap header that the .pcapng files have, which the .pcap doesn’t. We also tried converting the packages to txt files, and writing a program to remove the headers, and that worked, but when we were going to convert it back the “text2pcap” program that converts between text and pcap could only take a text-dump of the capture (not a nicely formatted file). 
+The Ubuntu machine was using airodump-ng to capture packets and airodump-ng can only save the files as pcap. Thus p0f will only read the captures from the days where we used the Ubuntu machine (tuesday and thursday). However the measurements are very similar for these two days and we think they give a pretty good image of what OSs that are in use. 
+
+However, we found out that the captures have all the information we need to find out this ourselves. By extracting the "user-agent"-field in all the HTTP-requests, we were able to compile a list containing the user-agent string, how many requests each user-agent have made, all the MAC-addresses using each user-agent, as well as the number of unique devices using each user-agent. The user-agent field contains information to the server about what program is requesting the data, or in the case of a browser, what standards are supported, which browser and version, what operating system and version the client is running
+
+[1] The NetworkMiner webpage: http://www.netresec.com/?page=NetworkMiner
+[2] The Ettercap webpage: http://ettercap.github.io/ettercap/
+[3] The wikipedia article about OS fingerprinting: https://en.wikipedia.org/wiki/TCP/IP_stack_fingerprinting
+
+
+
+
+
 INTERESTING NOTES
 my method of mac-mapping seems to create more unique devices than the p0f method. I believe this is due to the few cases where a device leaves the network and a new device connects within a short time frame, and the new device gets assigned the same ip address as the device which just left. Then p0f will see it as the same device because it is not checking mac addresses. 
 
