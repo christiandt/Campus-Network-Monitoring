@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 n_groups = 2
 
-means_men = (2.13017239121, 1.47366317988)
+means_men = (15, 12)
 
 fig, ax = plt.subplots()
 
@@ -20,8 +20,8 @@ rects1 = plt.bar(index, means_men, bar_width,
                  error_kw=error_config)
 
 #plt.xlabel('Group')
-plt.ylabel('Time')
-plt.title('Average RTT')
+plt.ylabel('Packets')
+plt.title('Avg Packets Per Session')
 plt.xticks(index+(bar_width/2), ('HTTP', 'HTTPS'))
 plt.legend()
 
