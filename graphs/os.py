@@ -30,7 +30,8 @@ rects2 = plt.bar(index + bar_width, new, bar_width,
                  alpha=opacity,
                  color='red',
                  error_kw=error_config,
-                 label='2013')
+                 label='2013',
+                 hatch="//")
 
 plt.xlabel('Operating System')
 plt.ylabel('Percent')
