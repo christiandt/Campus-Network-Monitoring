@@ -15,7 +15,7 @@ fig, ax = plt.subplots()
 index = np.arange(n_groups)
 bar_width = 0.5
 
-opacity = 0.4
+opacity = 0.5
 error_config = {'ecolor': '0.3'}
 
 rects1 = plt.bar(index, usage, bar_width,
