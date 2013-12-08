@@ -1,3 +1,14 @@
+Controll packages in correlation to time of day/week:
+
+The filter to apply:
+(wlan.fc.type == 1) &&((wlan.fc.subtype == 11) || (wlan.fc.subtype == 12))
+
+Notes:
+looks like the divice sending rts does not always wait for a cts...
+seems to be the same devices that are sending RTS/CTS...
+
+
+#####################################################################################################################################
 The filter to apply to filter out the control packets:
 wlan.fc.type == 0  //Management frame
 wlan.fc.type == 1  //Control frame
@@ -35,7 +46,7 @@ wlan.fc.type == 2  // Data frames, so we should kinda not be
 ((wlan.fc.type == 0) || (wlan.fc.type == 1) || (wlan.fc.type == 3) || ((wlan.fc.type == 2) && ((wlan.fc.subtype == 4) || (wlan.fc.subtype == 5) || (wlan.fc.subtype == 6) || (wlan.fc.subtype == 7) || (wlan.fc.subtype == 12) || (wlan.fc.subtype == 13) || (wlan.fc.subtype == 14) || (wlan.fc.subtype == 15))))
 "
 
-
+###############################################################################################################################################
 THOUGHTS:
 -maybe the sysadmins know that the network is super congested and have implemented the PCF to cope with it in some degree. 
 -interesting that the network is using some degree of Qos
