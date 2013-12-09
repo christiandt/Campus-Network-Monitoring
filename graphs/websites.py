@@ -16,7 +16,7 @@ error_config = {'ecolor': '0.3'}
 
 rects1 = plt.bar(index, means_men, bar_width,
                  alpha=opacity,
-                 color='black',
+                 color='red',
                  error_kw=error_config,
                  hatch="//")
 
