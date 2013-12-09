@@ -5,10 +5,10 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-n_groups = 3
+n_groups = 2
 
 
-usage = (64653855, 36008406, 37311035)
+usage = (28645449, 36008406)
 
 fig, ax = plt.subplots()
 
@@ -27,7 +27,7 @@ rects1 = plt.bar(index, usage, bar_width,
 plt.xlabel('')
 plt.ylabel('Packets')
 plt.title('Total Distribution of Packets')
-plt.xticks(index + (bar_width/2), ('Total', 'Filter 1', 'Filter 2'))
+plt.xticks(index + (bar_width/2), ('Data', 'Control Packets'))
 plt.legend()
 
 plt.tight_layout()
