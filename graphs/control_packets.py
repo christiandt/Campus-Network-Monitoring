@@ -11,6 +11,7 @@ n_groups = 2
 usage = (28645449, 36008406)
 
 fig, ax = plt.subplots()
+fig.set_size_inches(4.0,6.0)
 
 index = np.arange(n_groups)
 bar_width = 0.5
