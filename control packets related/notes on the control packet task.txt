@@ -3,14 +3,11 @@ Goodput vs throughput
 The filter:
 REMEMBER TO REMOVE:expert.message == "ACKed segment that wasn't captured (common at capture start)" || expert.message == "Previous segment not captured (common at capture start)"
 "
-(((wlan.fc.type == 0) || (wlan.fc.type == 1) || (wlan.fc.type == 3) || ((wlan.fc.type == 2) && ((wlan.fc.subtype == 4) || (wlan.fc.subtype == 5) || (wlan.fc.subtype == 6) || (wlan.fc.subtype == 7) || (wlan.fc.subtype == 12) || (wlan.fc.subtype == 13) || (wlan.fc.subtype == 14) || (wlan.fc.subtype == 15)))) || eth.fcs_bad==1 || ip.checksum_bad==1 || tcp.checksum_bad==1 || udp.checksum_bad==1 || sctp.checksum_bad==1 || mstp.checksum_bad==1 || cdp.checksum_bad==1 || edp.checksum_bad==1 || wlan.fcs_bad==1) 
+(((wlan.fc.type == 0) || (wlan.fc.type == 1) || (wlan.fc.type == 3) || ((wlan.fc.type == 2) && ((wlan.fc.subtype == 4) || (wlan.fc.subtype == 5) || (wlan.fc.subtype == 6) || (wlan.fc.subtype == 7) || (wlan.fc.subtype == 12) || (wlan.fc.subtype == 13) || (wlan.fc.subtype == 14) || (wlan.fc.subtype == 15)))) || eth.fcs_bad==1 || ip.checksum_bad==1 || tcp.checksum_bad==1 || udp.checksum_bad==1 || sctp.checksum_bad==1 || mstp.checksum_bad==1 || cdp.checksum_bad==1 || edp.checksum_bad==1 || wlan.fcs_bad==1 || expert.message == "Retransmission (suspected)" ||tcp.analysis.duplicate_ack || expert.message == "Keep-Alive" || expert.message == "Fast retransmission (suspected)" || expert.message == "Out-Of-Order segment")                                                       
 "
 
 
-|| expert.message == "Retransmission (suspected)" ||tcp.analysis.duplicate_ack || expert.message == "Keep-Alive" || expert.message == "Fast retransmission (suspected)" || expert.message == "Out-Of-Order segment")                                                       
-"
-
-
+Add this part if you just want to filter out everything that is colored black by wireshark:
  || expert.message == "ACKed segment that wasn't captured (common at capture start)" || expert.message == "Previous segment not captured (common at capture start)" ) 
 "
 
